@@ -1,0 +1,29 @@
+:root {
+    --Yellow: #FCB72B;
+    --LightYellow: #FFF4DF;
+    --Snow: #F2F5F9;
+    --LightGrey: #E5ECF4;
+    --DimGrey: #939CAA;
+    --DarkNavy: #495567;
+    --BlackNavy: #333A44;
+    --Black: #000;
+    --White: #fff;
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('/src/fonts/SpaceMono-Bold.ttf') format('ttf'),
+        url('/src/fonts/SpaceMono-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+        url('/src/fonts/SpaceMono-BoldItalic.ttf') format('ttf'),
+        url('/src/fonts/SpaceMono-Italic.ttf') format('ttf');
+}

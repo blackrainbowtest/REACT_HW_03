@@ -1,0 +1,11 @@
+.map {
+    width: 100%;
+    padding: 120px;
+}
+
+.mapImage {
+    width: 100%;
+    min-height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

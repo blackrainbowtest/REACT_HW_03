@@ -1,0 +1,57 @@
+@import url('../../../../styles/common.module.css');
+
+.container {
+    width: 100%;
+    min-height: 96px;
+    padding: 15px 55px;
+    background: var(--White);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 180px;
+    min-height: 53px;
+    flex-shrink: 0;
+    background: var(--Yellow);
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: var(--Yellow);
+}
+
+.btn_text {
+    color: var(--White);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.hrefs {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+}
+
+.hrefs a svg {
+    margin-right: 35px;
+}
+
+.hrefs a {
+    color: var(--DimGrey);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.hrefs a:hover {
+    color: var(--DarkNavy);
+}

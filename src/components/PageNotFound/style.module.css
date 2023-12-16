@@ -1,0 +1,55 @@
+.btn {
+    background: #FCB72B;
+    flex-shrink: 0;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 900;
+    color: #495567;
+}
+
+.danger {
+    color: #FCB72B;
+}
+
+.text {
+    font-size: 38px;
+}
+
+.btn:hover {
+    background: #FFF4DF;
+    color: #939CAA;
+}
+
+.lead {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #495567;
+    gap: 15px;
+}
+
+.textContainer {
+    text-align: center;
+}
+
+.notFound {
+    color: #FFF;
+
+    font-family: Space Mono;
+    font-size: 148px;
+    font-style: normal;
+    font-weight: 700;
+}
